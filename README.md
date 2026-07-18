@@ -57,20 +57,20 @@ are small enough to live directly in the repo.
 compressed to 2D. Tiers are visually separated, with some overlap
 between Average and Good:
 
-![PCA cluster scatter](assets/pca_cluster_scatter.png)
+![PCA cluster scatter](assests/pca_cluster_scatter.png)
 
 **Tier boxplots** — `player_rating` and `total_goals` step up cleanly
 from Below Average → Average → Good; `defensive_actions` is highest
 for Average rather than Good, since goalkeepers and low-minute
 defenders cluster there:
 
-![Tier boxplots](assets/tier_boxplots.png)
+![Tier boxplots](assests/tier_boxplots.png)
 
 **Correlation heatmap** of the clustering features, useful for
 spotting redundant inputs (e.g. `distance_covered_km`,
 `sprint_distance_km`, and `minutes_played` are tightly correlated):
 
-![Correlation heatmap](assets/correlation_heatmap.png)
+![Correlation heatmap](assests/correlation_heatmap.png)
 
 ## Required columns for prediction
 The uploaded Excel file needs **one row per player** with these
